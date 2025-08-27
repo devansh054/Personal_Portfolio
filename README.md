@@ -1,3 +1,5 @@
+![image alt](https://github.com/devansh054/Personal_Portfolio/blob/e1e771b65417bde2e36d28c3d253db28bfe3a6ed/Devansh_Portfolio.jpg)
+
 # 🚀 Devansh Khatri - Portfolio Website
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Showcasing my skills, projects, and experience as a Full-Stack Developer.

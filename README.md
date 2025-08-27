@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 ## 🌐 Live Demo
 
-[**View Live Portfolio**](https://your-netlify-url.netlify.app) *(Replace with your actual Netlify URL)*
+[**View Live Portfolio**](https://your-netlify-url.netlify.app) *(https://devansh-portfolio1.netlify.app/)*
 
 ## ✨ Features
 

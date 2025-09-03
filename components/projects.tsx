@@ -7,6 +7,14 @@ import OpenSource from "./open-source"
 export default function Projects() {
   const projects = [
     {
+      title: "Premier League Predictor",
+      description:
+        "A full-stack machine learning platform that predicts Premier League match outcomes with 81.4% accuracy. Built with Next.js/React frontend and FastAPI backend, leveraging Random Forest ML models, Hugging Face Transformers (NLP), and interactive 3D visualizations. Deployed on scalable microservices architecture using Docker, Kubernetes, PostgreSQL, Redis, and CI/CD pipelines.",
+      tags: ["Next.js", "FastAPI", "Machine Learning", "AI", "Docker", "Kubernetes", "PostgreSQL"],
+      codeLink: "https://github.com/devansh054/PL2025_ML_Predictor",
+      liveLink: "https://pl2025predictor.netlify.app/",
+    },
+    {
       title: "Equities Trading Platform",
       description:
         "Engineered a high-touch equity trading platform using Java and Spring Boot, enabling real-time market data processing and sub-second order execution. Designed 15+ RESTful API endpoints with Spring Security for secure trade execution.",

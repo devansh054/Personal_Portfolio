@@ -14,6 +14,16 @@ export default function Projects() {
       codeLink: "https://github.com/devansh054/PL2025_ML_Predictor",
       liveLink: "https://pl2025predictor.netlify.app/",
     },
+    
+      {
+       title: "MeetingMind – AI Meeting Assistant",
+       description:
+          "An AI-powered meeting platform delivering real-time transcription, intelligent action item extraction, and automated follow-ups. Built with React/Redux frontend, Node.js + FastAPI backend, leveraging Whisper STT, GPT-based NLP, and WebRTC/WebSocket for live collaboration. Features include virtual whiteboard, screen annotations, breakout rooms, meeting cost analytics, and integrations with Slack, Google Calendar, and Notion. Deployed using Docker, PostgreSQL, Redis, and AWS infrastructure.",
+       tags: ["React", "Redux", "Node.js", "FastAPI", "AI", "WebRTC", "PostgreSQL", "Redis", "Docker", "AWS"],
+       codeLink: "https://github.com/devansh054/MeetingMind",
+       liveLink: "https://meeting-mind.netlify.app/",
+    },
+
     {
       title: "Equities Trading Platform",
       description:

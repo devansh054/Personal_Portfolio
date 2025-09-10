@@ -14,6 +14,14 @@ export default function Projects() {
       codeLink: "https://github.com/devansh054/PL2025_ML_Predictor",
       liveLink: "https://pl2025predictor.netlify.app/",
     },
+    {
+  title: "AI PDF Chatbot",
+  description:
+    "Enterprise-ready AI document intelligence platform with multi-LLM support (OpenAI, Anthropic, Google), advanced security controls, and real-time chat capabilities. Built with Next.js/TypeScript frontend and LangChain/LangGraph backend, featuring document processing for multiple formats, role-based access control, audit logging, conversation threads, and analytics dashboard. Deployed with modern full-stack architecture using Supabase vector storage and Zustand state management.",
+  tags: ["Next.js", "TypeScript", "LangChain", "LangGraph", "AI", "Supabase", "Zustand", "Enterprise"],
+  codeLink: "https://github.com/devansh054/ai_pdf_chatbot",
+    //liveLink: "", // Add deployment URL when available
+    },
     
       {
        title: "MeetingMind – AI Meeting Assistant",

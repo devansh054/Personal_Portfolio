@@ -15,6 +15,14 @@ export default function Projects() {
       liveLink: "https://pl2025predictor.netlify.app/",
     },
     {
+  title: "DevPulse – AI-Powered Developer Intelligence Dashboard",
+  description:
+    "A comprehensive full-stack platform providing AI-driven insights into developer productivity, wellbeing, and team performance through real-time GitHub integration. Features focus time tracking, commit analysis, team collaboration tools, and developer health scoring with interactive data visualizations. Built with modern tech stack including robust authentication, responsive design, and scalable deployment architecture.",
+  tags: ["Next.js", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "GitHub API", "AI Analytics", "React"],
+  codeLink: "https://github.com/devansh054/dev-pulse",
+  liveLink: "https://dev-pulse.netlify.app/",
+},
+    {
   title: "AI PDF Chatbot",
   description:
     "Enterprise-ready AI document intelligence platform with multi-LLM support (OpenAI, Anthropic, Google), advanced security controls, and real-time chat capabilities. Built with Next.js/TypeScript frontend and LangChain/LangGraph backend, featuring document processing for multiple formats, role-based access control, audit logging, conversation threads, and analytics dashboard. Deployed with modern full-stack architecture using Supabase vector storage and Zustand state management.",

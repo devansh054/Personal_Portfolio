@@ -5,16 +5,17 @@ import Skills from "./skills-content"
 export default function Experience() {
   const experiences = [
     {
-      title: "Technology Support Associate",
-      company: "Walmart Canada",
-      period: "Sep 2022 - Feb 2024",
-      location: "Guelph, ON",
-      achievements: [
-        "Resolved technical issues with POS systems and devices, reducing customer wait times by 20%",
-        "Improved inventory and transaction accuracy by 25% through process streamlining",
-        "Provided technical support, troubleshooting, POS systems, and collaboration with team members",
-      ],
-    },
+  title: "Full Stack Software Developer",
+  company: "Ruhil Holdings",
+  period: "Sept 2023 - Dec 2025",
+  location: "Toronto, ON",
+  achievements: [
+    "Developed and optimized backend microservices using Python, Node.js, and SQL, improving data processing speed by 30%.",
+    "Integrated AI-driven automation with GitHub Copilot and LangChain, reducing development cycles and enhancing API reliability.",
+    "Deployed containerized applications on AWS with Docker and CI/CD pipelines, increasing system uptime and scalability.",
+  ],
+},
+
     {
       title: "Summer Student",
       company: "University of Guelph",

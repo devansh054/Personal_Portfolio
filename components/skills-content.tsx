@@ -5,23 +5,72 @@ export default function SkillsContent() {
   const skillCategories = [
     {
       category: "Frontend",
-      skills: ["JavaScript", "TypeScript", "React.js", "HTML/CSS", "Tailwind CSS"],
+      skills: [
+        "JavaScript",
+        "TypeScript",
+        "React.js",
+        "Next.js",
+        "HTML/CSS",
+        "Tailwind CSS",
+        "Figma",
+      ],
     },
     {
       category: "Backend",
-      skills: ["Java", "Python", "Node.js", "PHP", "Laravel", "Express.js", "RESTful APIs"],
+      skills: [
+        "Python",
+        "Node.js",
+        "Java",
+        "C#",
+        "FastAPI",
+        "Express.js",
+        "Spring Boot",
+        "REST APIs",
+        "GraphQL",
+        "Microservices",
+      ],
     },
     {
-      category: "Database",
-      skills: ["MySQL", "PostgreSQL", "DynamoDB", "MongoDB", "Redis"],
+      category: "AI & Data",
+      skills: [
+        "LangChain",
+        "GitHub Copilot",
+        "OpenAI API",
+        "RAG Systems",
+        "LLM Integration",
+        "SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "DynamoDB",
+        "Redis",
+      ],
     },
     {
       category: "Cloud & DevOps",
-      skills: ["AWS", "GitHub Actions", "Travis-CI", "Docker", "CI/CD"],
+      skills: [
+        "AWS (Lambda, EC2, SQS, SNS, RDS)",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "GitHub Actions",
+        "Terraform",
+        "CloudWatch",
+      ],
     },
     {
-      category: "Tools & Methodologies",
-      skills: ["Git", "Agile", "Scrum", "JIRA", "Figma"],
+      category: "Tools & Practices",
+      skills: [
+        "Git",
+        "Agile",
+        "Scrum",
+        "Testing (Jest, Mocha)",
+        "Dynatrace",
+        "Splunk",
+        "System Design",
+        "Automation",
+        "Monitoring",
+      ],
     },
   ]
 
@@ -30,14 +79,14 @@ export default function SkillsContent() {
       <div className="space-y-4 text-center">
         <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Skills</h3>
         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed">
-          My expertise and technical proficiencies
+          A versatile toolkit spanning AI integration, cloud engineering, backend architecture, and full-stack development.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {skillCategories.map((category, index) => (
           <div key={index} className="skill-card">
-            <Card className="h-full border-t-4 border-t-primary">
+            <Card className="h-full border-t-4 border-t-primary shadow-sm hover:shadow-md transition-all">
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-4">{category.category}</h3>
                 <div className="flex flex-wrap gap-2">
